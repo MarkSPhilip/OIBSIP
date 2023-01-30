@@ -1,0 +1,99 @@
+.transition{
+    width: 100%;
+    height: 4px;
+    background-color: #ff0000;
+
+    transform: scaleX(100%);
+    transition-duration:  2s;
+    transition-timing-function: ease-in;
+}
+.FIRST{
+    background-color: #ee165e;
+    font-family: 'CooperBT',Times,'Times New Roman',serif;
+    text-align: center;
+}
+#line{
+    margin-block-end: unset;
+    margin-block-start: unset;
+    margin: unset;
+    font-size: 15px;
+}
+input[type="text" i]{
+    background-color: #3f38389c;
+    border-radius: 6px;
+    border-color: #3f38389c;
+    color:white;
+    width: 400px;
+    text-emphasis-color: rgba(255, 255, 255, 0.689);
+    height: 24px;
+}
+input#search[type="submit" i] {
+    background-color: #3f38389c;
+    border-radius: 6px;
+    border-color: #3f38389c;
+    color: rgba(255, 255, 255, 0.689);
+    height: 28px;
+    margin-right: 6cm;   
+    margin-top: 15px;
+}
+.SECOND{
+    text-align: center;
+    margin-block-start: 0em;
+    margin-block-end: 0em; 
+    background: url("bakery_products.jpg") no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    height: 70ex;
+}
+#shopnow{
+    background: #ee165e;
+    border-color:#ee165e;
+    font-family: 'CooperBT',Times, 'Times New Roman', Times,serif;
+    font-size: 55px;
+    color: white;
+    border-radius: 27px;
+    margin-bottom: 50px;
+   
+}
+h2{
+    font-size: 60px;
+    color: #ee165e; 
+    margin-bottom: 0px; 
+}
+p{
+    font-size: 39px;
+    margin: 0px;
+}
+#peter{
+    font-family: 'CooperBT',Times, 'Times New Roman', Times,serif;
+    font-size: 4cm;
+    color: rgb(253, 253, 255);
+    margin-bottom: 4px;
+    margin-top: 0px;
+    /* padding-bottom: 50px; */
+}
+body{
+    margin: 0em;
+   
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.menu{
+    background-color: rgb(182 36 63);
+    text-align: right;
+    height: 57px;
+}
+a{
+    color: black;
+    padding-right:  5ex; ;
+}
+.THIRD{
+    background-color: #ee165e;
+    height: 7cm;
+    padding: 40px;
+}
+
+table{
+    padding-top: 10ex;
+   width: 100%;
+}
