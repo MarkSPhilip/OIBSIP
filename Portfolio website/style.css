@@ -1,0 +1,185 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a background color */
+body {
+  background-color: #000;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Add styles to the header */
+header {
+  background-color: yellow;
+  box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #fff;
+}
+
+/* Add styles to the main content */
+main {
+  margin-top: 180px;
+  background-color: #000;
+  color: #fff;
+}
+.yellow{
+  background-color: yellow;
+  max-width: 960px;
+  position: relative;
+  left: 257px;
+  border-radius: 26px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 11px auto;
+  padding: 33px;
+  background-color: #fff;
+  box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+  border-radius: 26px;
+  position: relative;
+  top: 11px;
+  left: 11px;
+  margin-bottom: 31px;
+}
+
+.hero {
+  background-image: url('hero-image.jpg');
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+/* .hero  {
+  font-size: 48px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px #000;
+} */
+
+.hero {
+  font-size: 24px;
+  /* margin-bottom: 20px; */
+  text-shadow: 2px 2px #000;
+}
+pre{
+ padding-right: 350px;
+ text-align: justify;
+}
+
+h1{
+  color: white;
+  margin:-58px 0px -60px;
+  font-size: 60px;
+}
+h3{
+  color: white;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+h4{
+  color: white;
+  font-size: 30px;
+  letter-spacing: 2px;
+  padding-left:0px ;
+  padding-right: 0px;
+
+}
+
+#about h2,
+#skills h2,
+#projects h2,
+#contact h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #0b0b0b;
+  padding-bottom: 5px;
+}
+p{
+  color: black;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul li {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.project {
+  width: 100%;
+  margin-right: 3.33%;
+  
+  background-color: rgb(247, 245, 245);
+  box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+  border-radius: 14px;
+  transition: transform 0.2s ease-in-out;
+  padding: 26px;
+  margin-bottom: 15px;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+}
+
+
+
+.project h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.project p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #0b0b0b;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
