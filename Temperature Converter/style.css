@@ -1,0 +1,42 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    margin-top: 32ex;
+    background-color: lavender;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    border-radius: 4px;
+  }
+  .form-control{
+    border-radius: 4px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  .btn {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #result {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .btn btn-primary{
+    border-radius: 4px;
+  }
+  .html{
+    background-color: cornsilk;
+  }
